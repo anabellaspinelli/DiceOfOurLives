@@ -1,0 +1,148 @@
+/*@import url(http://fonts.googleapis.com/css?family=Lobster);*/
+
+body {
+	background-color: #FBEED5;
+	height: auto;
+}
+
+@font-face {
+    font-family: 'LobsterWebFont';
+    src: url('../fonts/lobster_1.3-webfont.eot');
+    src: url('../fonts/lobster_1.3-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lobster_1.3-webfont.woff') format('woff'),
+         url('../fonts/lobster_1.3-webfont.ttf') format('truetype'),
+         url('../fonts/lobster_1.3-webfont.svg#lobster_1.3regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h3 {
+	font-family: LobsterWebFont;
+}
+
+h1 {
+	font-size: 500%;
+	color: #3C5079;
+}
+
+h3 {
+	color: #2B9494;
+}
+
+img {
+	display: block;
+	position: relative;
+	margin: auto;
+	border-radius: 20px;
+	margin-top: 50px;
+	display: block;
+}
+
+
+#buttons {
+	margin-top: 100px;
+}
+
+#four, #six, #eight, #ten, #twelve, #twenty {
+	margin-top: 5px;
+}
+
+footer {
+	text-align: right;
+	margin-top: 100px;
+	margin-right: 20px;
+}
+
+.smaller {
+	width: 200px;
+	height: 200px;
+}
+
+.diceButton {
+	margin-top: 10px;
+}
+
+#webhost > img {
+}
+
+
+/*
+==============================================
+bigEntrance -- www.justinaguilar.com
+==============================================
+*/
+
+.bigEntrance {
+	animation-name: bigEntrance;
+	-webkit-animation-name: bigEntrance;	
+
+	animation-duration: 1.6s;	
+	-webkit-animation-duration: 1.6s;
+
+	animation-timing-function: ease-out;	
+	-webkit-animation-timing-function: ease-out;	
+
+	visibility: visible !important;			
+}
+
+@keyframes bigEntrance {
+	0% {
+		transform: scale(0.3) rotate(6deg) translateX(-30%) translateY(30%);
+		opacity: 0.2;
+	}
+	30% {
+		transform: scale(1.03) rotate(-2deg) translateX(2%) translateY(-2%);		
+		opacity: 1;
+	}
+	45% {
+		transform: scale(0.98) rotate(1deg) translateX(0%) translateY(0%);
+		opacity: 1;
+	}
+	60% {
+		transform: scale(1.01) rotate(-1deg) translateX(0%) translateY(0%);		
+		opacity: 1;
+	}	
+	75% {
+		transform: scale(0.99) rotate(1deg) translateX(0%) translateY(0%);
+		opacity: 1;
+	}
+	90% {
+		transform: scale(1.01) rotate(0deg) translateX(0%) translateY(0%);		
+		opacity: 1;
+	}	
+	100% {
+		transform: scale(1) rotate(0deg) translateX(0%) translateY(0%);
+		opacity: 1;
+	}		
+}
+
+@-webkit-keyframes bigEntrance {
+	0% {
+		-webkit-transform: scale(0.3) rotate(6deg) translateX(-30%) translateY(30%);
+		opacity: 0.2;
+	}
+	30% {
+		-webkit-transform: scale(1.03) rotate(-2deg) translateX(2%) translateY(-2%);		
+		opacity: 1;
+	}
+	45% {
+		-webkit-transform: scale(0.98) rotate(1deg) translateX(0%) translateY(0%);
+		opacity: 1;
+	}
+	60% {
+		-webkit-transform: scale(1.01) rotate(-1deg) translateX(0%) translateY(0%);		
+		opacity: 1;
+	}	
+	75% {
+		-webkit-transform: scale(0.99) rotate(1deg) translateX(0%) translateY(0%);
+		opacity: 1;
+	}
+	90% {
+		-webkit-transform: scale(1.01) rotate(0deg) translateX(0%) translateY(0%);		
+		opacity: 1;
+	}	
+	100% {
+		-webkit-transform: scale(1) rotate(0deg) translateX(0%) translateY(0%);
+		opacity: 1;
+	}				
+}
